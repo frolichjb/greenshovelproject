@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "greenshovelproject.vercel.app" }],
+      "destination": "https://greenshovelproject.org/:path*",
+      "permanent": true
+    }
+  ]
+}
